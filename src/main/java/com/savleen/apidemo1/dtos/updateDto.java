@@ -5,12 +5,10 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class createProductRequestDtos {
+public class updateDto {
     private String title;
     private String description;
     private String image;
     private String category;
     private double price;
-//no id->provided by backend
-// getting from frontend
 }

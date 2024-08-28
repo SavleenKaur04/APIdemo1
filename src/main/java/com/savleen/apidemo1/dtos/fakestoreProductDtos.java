@@ -28,5 +28,13 @@ public class fakestoreProductDtos {
 
         return p;
     }
+    /*public product pro(){
+        product p=new product();
+        Category c=new Category();
+        c.setTitle(getCategory());
+        p.setCategory(c);
+        return p;
+    }*/
+
 
 }
