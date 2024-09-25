@@ -14,15 +14,15 @@ This Java application connects to the CoinDCX WebSocket API to fetch real-time t
 - Connects to CoinDCX WebSocket for real-time market data.
 - Allows users to set a trigger price for automatic order placement.
 
-### Prerequisites
+## Prerequisites
 - Java Development Kit (JDK) 8 or higher
 - Maven (for dependency management)
 
-#### Design Decisions
+## Design Decisions
 - WebSocket for Real-Time Data
 -Error Handling: Implemented robust error handling and logging for connection management to improve reliability.
 
-##### Librarires Used
+## Librarires Used
 -SLF4J: For logging functionality.
 -Gson: For JSON parsing and serialization.
 -Java-WebSocket: For handling WebSocket connections.
